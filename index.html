@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        
+    <fieldset>
+
+        <legend>Preencha seus dados</legend>
+
+        <div>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome completo">
+        </div>
+
+        <div>
+            <label for="email">E-mail: </label>
+            <input type="text" name="email" id="email" placeholder="Insira seu melhor E-mail">
+        </div>
+
+        <div>
+            <label for="telefone">N° de telefone: </label>
+            <input type="text" name="telefone" id="telefone" placeholder="Insira seu telefone">
+        </div>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Turmas</legend>
+
+        <input type="radio" name="turma" id="manha">
+        <label for="manha">Manhã</label>
+
+        <input type="radio" name="turma" id="tarde">
+        <label for="tarde">Tarde</label>
+
+        <input type="radio" name="turma" id="noite">
+        <label for="noite">Noite</label>
+
+        <div>
+            <label for="curso">Selecione seu curso: </label>
+            <select name="curso" id="curso">
+                <option value="frontEnd">Front-End</option>
+                <option value="backEnd">Back-End</option>
+                <option value="db">Banco de Dados</option>
+            </select>
+        </div>
+        
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Matérias</legend>
+
+        <div>
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" name="scss" id="scss">
+            <label for="scss">SCSS</label>
+
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label>
+
+            <input type="checkbox" name="java" id="java">
+            <label for="java">JAVA</label>
+
+            <input type="checkbox" name="javaScript" id="javaScript">
+            <label for="javaScript">JavaScript</label>
+
+            <input type="checkbox" name="python" id="python">
+            <label for="python">Python</label>
+
+            <input type="checkbox" name="sql" id="sql">
+            <label for="sql">SQL</label>
+
+            <input type="checkbox" name="outros" id="outros">
+            <label for="outros">Outros</label>
+        </div>
+
+        <div>
+            <label for="insiraOutros">Especifique quais outras matérias: </label>
+            <input type="text" name="insiraOutros" id="insiraOutros">
+        </div>
+    </fieldset>
+
+    <div>
+    <button>Enviar Inscrição</button>
+    </div>
+
+    </main>
+
+    <footer>
+    <p>Todos os direitos reservados - 2025</p>
+    </footer>
+</body>
+</html>
